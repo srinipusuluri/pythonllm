@@ -28,6 +28,8 @@ my_car = Car("Toyota", "Corolla", 2020)
 # Access attributes and methods
 print(my_car.make)  # Output: Toyota
 my_car.display_info()  # Output: 2020 Toyota Corolla
+
+
 2. Encapsulation
 Encapsulation: The bundling of data (attributes) and methods that operate on the data into a single unit or class. It also involves restricting access to certain components.
 python
@@ -54,6 +56,8 @@ print(my_car._make)  # Output: Toyota
 
 # Using getter method
 print(my_car.get_model())  # Output: Corolla
+
+
 3. Inheritance
 Inheritance: A mechanism by which one class (child class) can inherit attributes and methods from another class (parent class). It promotes code reuse.
 python
@@ -80,6 +84,8 @@ class Car(Vehicle):
 # Create an object of the Car class
 my_car = Car("Toyota", "Corolla", 2020)
 my_car.display_info()  # Output: Car: 2020 Toyota Corolla
+
+
 4. Polymorphism
 Polymorphism: The ability to use a single interface to represent different underlying data types. In Python, it allows methods to do different things based on the object it is acting upon.
 python
@@ -107,6 +113,8 @@ motorcycle = Motorcycle()
 # Pass objects to the function
 show_vehicle_info(car)  # Output: This is a car
 show_vehicle_info(motorcycle)  # Output: This is a motorcycle
+
+
 5. Abstraction
 Abstraction: The concept of hiding the complex implementation details and showing only the necessary features of an object. In Python, abstraction is often achieved through abstract classes and interfaces (using the abc module).
 python
